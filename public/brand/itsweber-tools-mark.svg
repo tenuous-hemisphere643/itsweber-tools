@@ -1,0 +1,21 @@
+<svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="It's Weber Tools mark">
+  <style>
+    .frame { stroke: #157897; fill: none; stroke-width: 1.6; }
+    .sep { stroke: #157897; stroke-width: 1; }
+    .dot { fill: #157897; }
+    .chev { stroke: #157897; stroke-width: 1.8; fill: none; stroke-linecap: square; stroke-linejoin: miter; }
+    .cursor { fill: #E6A23C; }
+    @media (prefers-color-scheme: dark) {
+      .frame, .chev { stroke: #3FA9C2; }
+      .sep { stroke: #3FA9C2; }
+      .dot { fill: #3FA9C2; }
+    }
+  </style>
+  <rect class="frame" x="2.5" y="3.5" width="19" height="17" rx="1.5" />
+  <line class="sep" x1="2.5" y1="7.5" x2="21.5" y2="7.5" />
+  <circle class="dot" cx="4.5" cy="5.5" r="0.5" />
+  <circle class="dot" cx="6.4" cy="5.5" r="0.5" />
+  <circle class="dot" cx="8.3" cy="5.5" r="0.5" />
+  <path class="chev" d="M 8 12 L 11.5 15 L 8 18" />
+  <rect class="cursor" x="13.5" y="14.5" width="3.5" height="2" />
+</svg>

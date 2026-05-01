@@ -1,0 +1,7 @@
+services:
+  itsweber-tools:
+    image: ghcr.io/itsweber-official/itsweber-tools:latest
+    container_name: itsweber-tools
+    restart: unless-stopped
+    ports:
+      - "8080:80"

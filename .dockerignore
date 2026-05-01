@@ -1,0 +1,15 @@
+node_modules
+**/node_modules
+**/dist
+**/.turbo
+.git
+.github
+*.md
+*.log
+*.jsonl
+previews
+docs
+.prettierrc.json
+.prettierignore
+eslint.config.mjs
+"ItsWeber Tools.code-workspace"

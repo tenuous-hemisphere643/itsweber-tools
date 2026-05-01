@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container version="2">
+  <Name>ItsWeber Tools</Name>
+  <Repository>ghcr.io/itsweber-official/itsweber-tools:latest</Repository>
+  <Registry>https://github.com/itsweber-official/itsweber-tools</Registry>
+  <Network>bridge</Network>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/itsweber-official/itsweber-tools/issues</Support>
+  <Project>https://itsweber.de</Project>
+  <Overview>Local IT toolbox with 163 tools — Crypto, Converter, Network, Docker, Images, Text and more. Everything runs in the browser. No cloud, no login, no telemetry. All settings stored in localStorage.</Overview>
+  <Category>Tools:Utilities</Category>
+  <WebUI>http://[IP]:[PORT:8088]/</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/itsweber-official/itsweber-tools/main/docker/unraid/itsweber-tools.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/itsweber-official/itsweber-tools/main/public/brand/itsweber-tools-mark.svg</Icon>
+  <ExtraParams>--security-opt no-new-privileges:true</ExtraParams>
+  <Config Name="Web UI Port" Target="80" Default="8088" Mode="tcp" Description="Port to access the It's Weber Tools web interface." Type="Port" Display="always" Required="true" Mask="false">8088</Config>
+</Container>

@@ -1,0 +1,20 @@
+{
+  "name": "It's Weber Tools",
+  "short_name": "ItsWeber Tools",
+  "description": "Self-hosted IT toolbox — 160+ local browser-first utilities for developers and sysadmins.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0f1c24",
+  "theme_color": "#157897",
+  "categories": ["developer", "productivity", "utilities"],
+  "lang": "de",
+  "icons": [
+    {
+      "src": "/brand/itsweber-tools-mark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

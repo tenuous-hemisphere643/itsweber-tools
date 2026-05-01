@@ -1,0 +1,32 @@
+{
+  "name": "ItsWeber Tools",
+  "slug": "itsweber-tools",
+  "version": "0.1.0",
+  "description": "Fast self-hosted IT toolbox with local browser-first utilities.",
+  "brand": {
+    "name": "ItsWeber",
+    "logo": "/brand/itsweber-tools-mark.svg",
+    "wordmark": "/brand/itsweber-tools-wordmark.svg",
+    "themeColor": "#15779b"
+  },
+  "routes": {
+    "app": "/",
+    "about": "/about",
+    "manifest": "/manifest.itsweber-tools.json"
+  },
+  "integration": {
+    "mode": "optional-manifest",
+    "cmsDesignMutation": false,
+    "embedAllowed": true
+  },
+  "docker": {
+    "image": "ghcr.io/itsweber-official/itsweber-tools:latest",
+    "port": 8080,
+    "internalPort": 80
+  },
+  "privacy": {
+    "telemetry": false,
+    "databaseRequired": false,
+    "defaultProcessing": "browser-local"
+  }
+}

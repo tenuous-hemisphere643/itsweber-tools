@@ -1,0 +1,39 @@
+{
+  "name": "itsweber-tools-workspace",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ItsWeber Tools - a fast, branded, self-hosted IT toolbox.",
+  "license": "UNLICENSED",
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=9.15.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @itsweber/tools-web dev",
+    "build": "pnpm -r build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "typecheck": "pnpm -r typecheck",
+    "test": "pnpm -r test",
+    "preview": "pnpm --filter @itsweber/tools-web preview",
+    "docker:build": "docker build -f docker/Dockerfile -t itsweber-tools:local .",
+    "docker:run": "docker run --rm -p 8080:80 itsweber-tools:local"
+  },
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "@vitejs/plugin-react": "^5.1.1",
+    "eslint": "^9",
+    "eslint-config-prettier": "^9",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^5",
+    "globals": "^15",
+    "prettier": "^3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8",
+    "vite": "^7.2.6",
+    "vitest": "^4.0.15"
+  }
+}
