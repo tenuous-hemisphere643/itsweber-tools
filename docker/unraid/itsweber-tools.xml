@@ -12,7 +12,7 @@
   <Category>Tools:Utilities</Category>
   <WebUI>http://[IP]:[PORT:8088]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/itsweber-official/itsweber-tools/main/docker/unraid/itsweber-tools.xml</TemplateURL>
-  <Icon>https://raw.githubusercontent.com/itsweber-official/itsweber-tools/main/public/brand/itsweber-tools-mark.svg</Icon>
+  <Icon>https://raw.githubusercontent.com/itsweber-official/itsweber-tools/main/public/brand/itsweber-tools-mark.png</Icon>
   <ExtraParams>--security-opt no-new-privileges:true</ExtraParams>
   <Config Name="Web UI Port" Target="80" Default="8088" Mode="tcp" Description="Port to access the It's Weber Tools web interface." Type="Port" Display="always" Required="true" Mask="false">8088</Config>
 </Container>
